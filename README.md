@@ -1,17 +1,34 @@
 # 兩週理解礦業
 
-這是一個為期 14 天的公開產業研究練習。研究範圍以西澳礦業為起點，優先比較鐵礦、黃金與鋰，並從 Product／Software／AI 的角度理解產業。
+這是一個為期 14 天的公開產業研究練習。研究範圍以西澳礦業為起點，深度研究黃金與稀土，並以鐵礦、鋰、銅和鎳作為比較案例，從產業、商業與 Product／Software／AI 的角度理解礦業。
 
 這個計畫追求的不是在兩週內「精通」礦業，而是建立一套 **Mining Industry Operating Model**：知道產業如何運作、誰與誰交易、資料和決策出現在哪裡、自己還缺少哪些知識，以及應該去哪裡找答案。
 
 ## 14 天後要做到什麼
 
 - 能用自己的話說明礦業生命週期與價值鏈
-- 能比較鐵礦、黃金與鋰的流程、經濟性和商業模式
+- 能畫出黃金與稀土的完整供應鏈
+- 能比較黃金、稀土、鐵礦、鋰、銅與鎳的流程、經濟性和商業模式
 - 能快速閱讀礦業公司的年報、營運報告與職缺
 - 能與礦業 PM、營運人員、工程師或創業者進行 30–60 分鐘的有效對話
 - 能把一個 Software／AI 機會定位到具體 commodity、場域、workflow、使用者和決策者
 - 能提出有證據支持的觀點，同時清楚標示未知與假設
+
+## 目前進度
+
+| 日期 | 狀態 | 主題 | 主要成果 |
+| --- | --- | --- | --- |
+| [Day 1](DAY_1.md) | ✅ 完成 | 定義範圍與研究問題 | 確立西澳視角、礦種優先級、初始認知及 10 個研究問題 |
+
+### Day 1 的研究決策
+
+- **深度研究：**黃金、稀土
+- **快速理解：**鐵礦、鋰、銅
+- **衰退案例：**鎳
+- **下一輪候選：**鈾
+- **地理核心：**西澳；必要時延伸至其他國家，解釋加工能力、成本曲線與國際競爭
+
+Day 1 已建立研究假設，但其中關於西澳礦產分布、相對弱項及產業能力的陳述仍需在後續使用政府或地質機構的一手資料驗證。
 
 ## 執行規則
 
@@ -63,9 +80,9 @@ Cost drivers ≈ Mining + Processing + Labour + Energy
 
 #### Day 1 — 定義範圍與問題
 
-- [ ] 說明為什麼以西澳、鐵礦、黃金與鋰為研究範圍
-- [ ] 寫出目前對礦業的認知、假設與盲點
-- [ ] 建立 10 個希望在第 14 天回答的問題
+- [x] 說明為什麼以西澳為地理起點，並確定礦種優先級
+- [x] 寫出目前對礦業的認知、假設與盲點
+- [x] 建立 10 個希望在第 14 天回答的問題
 - **產出：**[`DAY_1.md`](DAY_1.md)
 
 #### Day 2 — 礦業生命週期
@@ -75,10 +92,11 @@ Cost drivers ≈ Mining + Processing + Labour + Energy
 - [ ] 區分礦山開發階段與日常生產階段
 - **產出：**`maps/mining-lifecycle.md`
 
-#### Day 3 — 比較三種 Commodity
+#### Day 3 — 比較不同 Commodity
 
-- [ ] 比較鐵礦、黃金與鋰的產品、客戶、定價和主要流程
-- [ ] 記錄 grade、recovery、product quality 對三者的不同意義
+- [ ] 深入比較黃金與稀土的產品、客戶、定價和主要流程
+- [ ] 快速定位鐵礦、鋰、銅與鎳的供應鏈差異
+- [ ] 記錄 grade、recovery、product quality 對不同礦種的意義
 - [ ] 說明為何不能把「礦業」視為單一商業模式
 - **產出：**`notes/day-03-commodities.md`
 
@@ -86,12 +104,12 @@ Cost drivers ≈ Mining + Processing + Labour + Energy
 
 - [ ] 畫出礦業公司、承包商、設備商、實驗室、物流、軟體商與客戶
 - [ ] 對每一類參與者回答「它向誰收費、解決什麼問題」
-- [ ] 選一條鐵礦供應鏈追蹤到鋼鐵客戶
+- [ ] 將黃金與稀土供應鏈分別追蹤到最終客戶
 - **產出：**`maps/value-chain.md`
 
 #### Day 5 — 公司拆解
 
-- [ ] 選擇 BHP、Rio Tinto、Fortescue，再加入一家黃金或鋰公司
+- [ ] 選擇黃金與稀土代表公司，再加入 BHP、Rio Tinto 或 Fortescue 作為比較
 - [ ] 每家公司只回答：挖什麼、在哪裡、產量、成本、客戶、風險、投資方向
 - [ ] 區分公司陳述、可驗證數據與自己的推論
 - **產出：**`companies/company-comparison.md`
@@ -116,7 +134,8 @@ Cost drivers ≈ Mining + Processing + Labour + Energy
 | 領域 | 分數（0–10） | 我能證明什麼 | 下一個問題 |
 | --- | ---: | --- | --- |
 | Mining lifecycle |  |  |  |
-| Iron ore／Gold／Lithium |  |  |  |
+| Gold／Rare earths |  |  |  |
+| Iron ore／Lithium／Copper／Nickel |  |  |  |
 | Exploration |  |  |  |
 | Drill & blast |  |  |  |
 | Processing |  |  |  |
@@ -130,7 +149,7 @@ Cost drivers ≈ Mining + Processing + Labour + Energy
 #### Day 8 — Mine Economics
 
 - [ ] 解釋 CAPEX、OPEX、cash cost、AISC、grade、recovery 與 strip ratio
-- [ ] 說明這些指標如何影響鐵礦、黃金與鋰項目
+- [ ] 說明這些指標如何影響黃金與稀土項目，並以鎳的衰退案例驗證
 - [ ] 用一家公司公開資料做簡化的營收與成本驅動分析
 - **產出：**`notes/day-08-mine-economics.md`
 
@@ -145,7 +164,7 @@ Cost drivers ≈ Mining + Processing + Labour + Energy
 
 - [ ] 理解 crushing、grinding、flotation、leaching 與 gravity separation 的用途
 - [ ] 不追求計算，重點描述每一步的輸入、處理、輸出與品質指標
-- [ ] 比較三種 commodity 為何需要不同處理流程
+- [ ] 比較黃金、稀土及至少一種大宗礦產為何需要不同處理流程
 - **產出：**`workflows/mineral-processing.md`
 
 #### Day 11 — Mining Technology
