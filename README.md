@@ -19,7 +19,7 @@
 | 日期 | 狀態 | 主題 | 主要成果 |
 | --- | --- | --- | --- |
 | [Day 1](DAY_1.md) | ✅ 完成 | 定義範圍與研究問題 | 確立西澳視角、礦種優先級、初始認知及 10 個研究問題 |
-| [Day 2](DAY_2.md) | 🟡 進行中 | 金礦生命週期與形成方式 | 建立從探勘到市場的流程概念，理解黃金集中成礦及五種主要金礦類型 |
+| [Day 2](DAY_2.md) | ✅ 核心完成 | 金礦生命週期與形成方式 | 建立完整流程、五種成礦類型及探勘環節的 People／Company／Equipment／Software／Data |
 
 ### Day 1 的研究決策
 
@@ -90,8 +90,9 @@ Cost drivers ≈ Mining + Processing + Labour + Energy
 
 - [x] 畫出金礦從探勘到客戶的完整流程
 - [x] 理解黃金如何集中成礦，以及五種主要金礦類型的簡單形成流程
-- [ ] 為每個環節補上 People／Company／Equipment／Software／Data
-- [ ] 區分礦山開發階段與日常生產階段
+- [x] 為探勘環節補上 People／Company／Equipment／Software／Data
+- [x] 區分礦山開發階段與日常生產階段
+- [ ] 後續隨研究進度補齊其他環節的 People／Company／Equipment／Software／Data
 - **產出：**[`DAY_2.md`](DAY_2.md)
 
 #### Day 3 — 比較不同 Commodity
